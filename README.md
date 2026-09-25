@@ -5,8 +5,8 @@ Predicts a student's **final exam marks** (0–100) from study hours, attendance
 ## Links
 
 - **Live app (Streamlit):** https://student-mark-predication.streamlit.app/
-- **GitHub repo:** https://github.com/aries1232/student-marks-prediction
-- **Open the notebook in Colab:** https://colab.research.google.com/github/aries1232/student-marks-prediction/blob/main/Student_Marks_Prediction.ipynb
+- **GitHub repo:** https://github.com/sona1704/student-marks-prediction
+- **Open the notebook in Colab:** https://colab.research.google.com/github/sona1704/student-marks-prediction/blob/main/Student_Marks_Prediction.ipynb
 
 ## Files
 
