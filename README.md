@@ -2,6 +2,12 @@
 
 Predicts a student's **final exam marks** (0–100) from study hours, attendance, previous exam marks, assignment marks, internal marks, practice test score, sleep hours and a few background columns, using **Linear Regression**.
 
+## Links
+
+- **Live app (Streamlit):** https://student-mark-predication.streamlit.app/
+- **GitHub repo:** https://github.com/aries1232/student-marks-prediction
+- **Open the notebook in Colab:** https://colab.research.google.com/github/aries1232/student-marks-prediction/blob/main/Student_Marks_Prediction.ipynb
+
 ## Files
 
 | File | Purpose |
@@ -48,6 +54,6 @@ R² = 0.823, MAE = 3.55 marks, RMSE = 4.47 marks.
 1. Push this folder to a public GitHub repo (it must include `app.py`, `requirements.txt` and the `model/` folder).
 2. Go to https://share.streamlit.io, sign in with GitHub, click **Create app** → **Deploy a public app from GitHub**.
 3. Pick the repo, branch `main`, main file `app.py`, then **Deploy**.
-4. After about a minute you get a permanent link like `https://<your-app-name>.streamlit.app`.
+4. After about a minute you get a permanent link. This project is deployed at https://student-mark-predication.streamlit.app/
 
 `requirements.txt` pins `scikit-learn==1.9.1`, the version `model/model.pkl` was saved with. If you retrain in Colab and replace the `model/` files, change that pin to Colab's version (`import sklearn; sklearn.__version__`).
